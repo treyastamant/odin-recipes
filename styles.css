@@ -1,5 +1,5 @@
 html {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
 }    
 body {
@@ -34,7 +34,7 @@ img {
 .parallax {
     /* Set a specific height */
     min-height: 200px;
-    max-width: 900px;
+    max-width: 800px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -45,6 +45,7 @@ img {
 .parallax.noodles {
     /* The image used */
     background-image: url("images/korean-noodles.webp");
+    width: 900px;
 }
 .parallax.salad {
     /* The image used */
