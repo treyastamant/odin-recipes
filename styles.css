@@ -45,7 +45,6 @@ img {
 .parallax.noodles {
     /* The image used */
     background-image: url("images/korean-noodles.webp");
-    width: 900px;
 }
 .parallax.salad {
     /* The image used */
@@ -53,4 +52,13 @@ img {
 }
 .parallax.taco {
     background-image: url("images/plant-based-taco.webp");
+}
+
+@media screen and (max-width: 600px) {
+    .parallax {
+        /* min-height: 100px;
+        background-position: top; */
+        background-attachment: scroll;
+        min-width: 100%;
+    }
 }
